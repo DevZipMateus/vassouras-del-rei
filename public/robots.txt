@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vassourasnovadelrei.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/
+Disallow: /private/
+
+# Allow search engines to crawl all public content
+Crawl-delay: 1
